@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nerd out with me</title>
+    <link rel="icon" href="assets/icons/favicon.png" type="image/png" sizes="32x32">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">  
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <div class="main">
+        <aside class="left-section">
+            <nav id="menu-1">
+                <div class="nav-wrapper">
+                <div id="menu-title">
+                    <h6>nekojita</h6>
+                    <img id="arrowBtn" class='menu-open' src="assets/vectors/arrow-dark.svg">
+                </div>
+                <hr>
+                <ul id="nav-links-1">
+                    <li><a href="index.html">home</a></li>
+                    <li id="themeBtn" class="light">nox</li>
+                    <li><a href="how-to-use.html">start here</a></li>
+                    <li><a href="micros.html">micros</a></li>
+                    <li><a href="macros.html">macros</a></li>
+                    <li><a href="habits.html">habits</a></li>
+                    <li><a href="effects.html">effects on cooking</a></li>
+                    <li><a href="general-guide.html">general food guide</a></li>
+                    <li><a href="mental-health.html">mental health</a></li>
+                    <li><a href="gut-microbiome.html">gut microbiome</a></li>
+                    <li><a href="about.html">about</a></li>
+                </ul>
+            </div>
+            </nav>
+        </aside>
+        <aside class="right-section">
+            <section class="content-container">
+            <h1>Nerd out with me</h1>
+            <hr>
+            <article class="article-wrapper">
+                <div class="sub-heading">
+                    <h4>Documentation</h4>
+                    <hr>
+                </div>
+                <div class="content-section">
+                <p>It’s always easy to start with some sort of base. So the first task at hand was to make a document for the project. For this I used ghostwriter markdown editor on GNU + Linux or GNU/Linux(add your GNOOOs kids).</p>
+                <p>This was the zone David Lynch would refer to as the idea fishing zone. I had the base idea in mind, but it needed a lot of development.</p>
+                <p>This really allowed the forming of a strong project structure and enabled me to find what I was looking for, in regards to content, as well as design.</p>
+                    </div>
+                    <div class="sub-heading">
+                        <h4>Nutrition Data</h4>
+                        <hr>
+                    </div>
+                    <div class="content-section">
+                    <p>The nutrition data is available online but it’s hard to find everything in a single place. And when we do find everything in a single place, it either has inconsistencies or is filled with medical jargon.</p>
+                    <p>The first thing then, was to get the important data and organizing it.The first thing then, was to get the important data and organizing it.</p>
+                    <p>Wikipedia was a really good source for the micronutrient names and RDA.</p>
+                    <p>But the complete data was still missing.</p>
+                    <p>If you check the Wikipedia articles of ‘minerals’ and ‘vitamins’, the data is there, but the food sources are limited, functions and deficiency symptoms include a lot of medical terms that are inaccessible for the average person.</p>
+                    <p>If you open up the article on ‘Fat’, you’ll find the same issue of inaccessible terms.</p>
+                    <p>Next was getting the functions and sources. Then observable deficiency symptoms.</p>
+                    <p>All of this data needed to be simplified and understandable.</p>
+                    <p>The tool used for this job was LibreOffice Calc. Data was stored in a CSV then later converted into a JSON array.</p>
+                    </p></div>
+                    <div class="sub-heading">
+                        <h4>Interaction design</h4>
+                        <hr>
+                    </div>
+                    <div class="content-section">
+                    <p>Interaction design had two challenges.</p>
+                    <p>The first was picking a design style.</p>
+                    <p>Since we are visualizing nutrient data and might be addressing a user base with a wide age range; there was a need for some level of objectivity as well as clarity in the design.</p>
+                    <p>And when it comes to Objective design, the Swiss masters stand unbeatable.</p>
+                    <p>The International typographic style from the 1950s focused a lot on the objectivity of the data.</p>
+                    <p>Taking a look at the <a href="https://upload.wikimedia.org/wikipedia/commons/6/68/Neue_Grafik_July_1963.jpg" target="blank">Neue Grafik magazine cover</a> will give you an idea of what I am talking about.</p>
+                    <p>International typographic was the style for this project!</p>
+                    <p>It was going to be an experience, trying to bring something on a digital medium, that usually exists in print.</p>
+                    <p>The font family had to be sans-serif. I first went with the Plex Sans from IBM but then while tinkering with and designing the interface, I found the Inter font family to be a much better fit for the project. It really captured the spirit of what I was going for.
+                    </p>
+                    <p>The color scheme had to reflect the ambition for objectivity and clarity. Also I wanted a light and dark theme. The classic black and white combination allowed for a high contrast design.</p>
+                    <p>Three shades were chosen for each color.</p>
+                    <p>The most pronounced ones were for the headings and the background, and the less pronounced ones for paragraphs.</p>
+                    <p>The site was divided into two sections. One where the interactive menu was placed and other where the data was going to be visualized. The data section was further divided into three sections.</p>
+                    <p>To improve the readability of the article content, I put it in a container with a maximum width of 800px.</p>
+                    <p>For the nutrient details the container was much bigger as the content or the data allowed as well as required some sort of breathability.</p>
+                    <p>There was no need for any sort of graphics or images on the website. The whole project uses only two graphics, one for the arrow menu and one for the favicon and that’s it.</p>
+
+                    <p>The second design challenge was the tool. The goal was to use 100% FLOSS for the project. <a href="https://penpot.app/" target="blank">Penpot</a> seemed like a really great option but it had two factors that just didn’t fit well with me. First, the software is still in alpha and second, it is web based.</p>
+                    <p>Though i would really like to use it for another project. I like it and would love to use it when it's out of alpha and has an offline desktop app.</p>
+                    <p>I was unable to install <a href="https://pencil.evolus.vn/" target="blank">Pencil</a> on my distribution and just wasn’t in the mood for hacking around.</p>
+                    <p><a href="https://github.com/akiraux" target="blank">Akira</a> is still an incomplete project.</p>
+                    <p><a href="https://www.gimp.org/">GIMP</a> is good enough for image manipulation but when it comes to designing, it is not the tool i would prefer.</p>
+                    <p>I found <a href="http://inkscape.org/" target="blank">Inkscape</a> as a really good option for the job and went with it.</p>
+                    </div>
+                    <div class="sub-heading">
+                        <h4>Development</h4>
+                        <hr>
+                    </div>
+                    <div class="content-section">
+                    <p>On the CSS side, I used flexbox and the CSS grid for the layout. The nutrient details section in particular, was designed using the CSS grid.</p>
+
+                    <p>I also used some CSS animations to add in some motion to the website.</p>
+
+                    <p>On the Js side, features included a navigation menu, a theme changer and displaying dynamic data for each micronutirent.</p>
+                    <p>The data was stored in the JavaScript file itself, as an array object.</p>
+                    <p>The pages were routed using the location hash. It was kind of a routing hack to be honest, but it’s okay for now.</p>
+                    <p>The last thing was making a PWA or a progressive web app. It was like icing on the cake(damn! We need some healthy idioms).</p>
+                    <p>No frameworks or libraries were used for this project. Media Queries were used for responsiveness.</p>
+                    <p>Since the site had no rasters, the load times were really good.</p>
+                    <p>I used <a href="https://vscodium.com/" target="blank">VSCodium</a> and <a href="https://www.vim.org/"target="blank">vim</a> as my text editors.</p>
+                    </div>
+                    <div class="sub-heading">
+                        <h4>Writing the content</h4>
+                        <hr>
+                    </div>
+                    <div class="content-section">
+                    <p>Writing content took a lot of time. Plus I kept adding content while I was designing the interface.</p>
+                    <p>Of course there will always be something more to add but I think the content we have, is alright for the first version.</p>
+                    <p>I do plan on adding more in the future as the project expands.</p>
+                    <p>The content has two kinds or styles. On one hand we have the completely objective nutrient data and on the other we have articles which add some level of subjectivity in the way they are written and presented.</p>
+                    <p>The paragraph length is short to improve the readability of the content</p>
+                    <p>i used <a href="https://www.libreoffice.org/" target="blank">LibreOffice Writer</a> for writing the content.
+                    </p></div>
+                    <div class="sub-heading">
+                        <h4>SEO</h4>
+                        <hr>
+                    </div>
+                    <div class="content-section">
+                    <p>Certainly we have SEO issues on the dynamic pages as we are using hash for routing but in the future we do plan on moving towards SSR pages. For now this will have to do.</p>
+                    </div>
+                    <div class="sub-heading">
+                        <h4>That's it!</h4>
+                        <hr>
+                    </div>
+                    <div class="content-section">
+                        <p>Softwares used: <a href="https://wereturtle.github.io/ghostwriter/" target="blank">Ghostwriter</a>, <a href="https://inkscape.org/" target="blank">Inkscape</a>, <a href="https://vscodium.com/">VSCodium</a>, <a href="https://www.vim.org/"target="blank">vim</a>, <a href="https://www.libreoffice.org/" target="blank">LibreOffice</a> and <a href="https://www.gnu.org/"target="blank">GNU</a>  + <a href="https://www.kernel.org/"target="blank">Linux</a>.</p>
+                    <p>And that is all thanks for nerding out!
+                    </p>
+                    <p>made with love. i don't know how else we do it. i don't know how else anybody does it. i don't know. maybe that's why...</p>
+                    <a href="#" onclick="arigato()">frens</a>
+                    </div>
+            </article>
+            </section>
+        </aside>
+    </div>
+    <script src="scripts/script.js"></script>
+</body>
+</html>
